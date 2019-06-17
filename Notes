@@ -1,0 +1,4 @@
+
+- To rollback to a certain version, can use "rake db:migrate:down VERSION=X"
+- To migrate up can use "rake db:migrate:up VERSION=X"
+- To check migration status, use "rake db:migrate:status"
